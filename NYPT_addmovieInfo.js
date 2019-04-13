@@ -14,22 +14,24 @@
 
     $(document).ready(function() {
       // 创建insertafter函数 方便插入button
-      function insertAfter(newElement, targetElement) {
-        var parent = targetElement.parentNode
-        if (parent.lastChild == targetElement) {
-          parent.appendChild(newElement)
-        } else {
-          parent.insertBefore(newElement, targetElement.nextSibling)
-        }
-      }
-      // 创建button为添加format准备
-      var button = document.createElement('input')
-      button.setAttribute('type', 'button')
-      button.setAttribute('value', 'Click')
-      button.setAttribute('id', 'doubanFormat')
+      // function insertAfter(newElement, targetElement) {
+      //   var parent = targetElement.parentNode
+      //   if (parent.lastChild == targetElement) {
+      //     parent.appendChild(newElement)
+      //   } else {
+      //     parent.insertBefore(newElement, targetElement.nextSibling)
+      //   }
+      // }
+      // // 创建button为添加format准备
+      // var button = document.createElement('input')
+      // button.setAttribute('type', 'button')
+      // button.setAttribute('value', 'Click')
+      // button.setAttribute('id', 'doubanFormat')
 
       var doubanUrlInputBox = document.getElementsByName('dburl')[0]
-      insertAfter(button, doubanUrlInputBox)
+      // insertAfter(button, doubanUrlInputBox)
+
+      $('input[name="dburl"]').after(' <input type="button" value="Click" id="doubanFormat">')
 
       // ajax获取豆瓣format数据并填写在textarea里，感谢r酱提供的api
       $("#doubanFormat").click(function(){
