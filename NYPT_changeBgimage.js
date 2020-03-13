@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         NYPT_changeBgimage
+// @name         NYPT_getBingURL
 // @namespace    https://ajycc20.github.io
 // @version      0.1
 // @description  to add bingimage
@@ -7,6 +7,7 @@
 // @include      http*://nanyangpt.com/bgimage.php
 // @require      https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js
 // @grant        GM_xmlhttpRequest
+// @updateURL    https://github.com/ajycc20/Simple-plugins/raw/master/NYPT_getBingURL
 // ==/UserScript==
 
 (function() {
