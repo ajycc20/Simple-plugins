@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Nexus_addmovieInfo
-// @namespace    https://ajycc20.xyz
+// @namespace    https://ajycc20.github.io
 // @version      0.1
 // @description  to easy add movie info
 // @author       ajycc20
