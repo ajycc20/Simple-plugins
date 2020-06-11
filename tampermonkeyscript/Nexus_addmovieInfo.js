@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         Nexus_addmovieInfo
-// @namespace    https://ajycc20.github.io
+// @namespace    https://ajycc20.top
 // @version      0.1
 // @description  to easy add movie info
 // @author       ajycc20
 // @include      http*://*/upload.php*
 // @require      https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js
-// @updateURL    https://github.com/ajycc20/Simple-plugins/raw/master/Nexus_addmovieInfo.js
+// @updateURL    https://raw.githubusercontent.com/ajycc20/Simple-plugins/master/tampermonkeyscript/Nexus_addmovieInfo.js
 // ==/UserScript==
 
 (function() {
